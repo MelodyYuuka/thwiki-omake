@@ -1,0 +1,28 @@
+html {height: 100%}
+body {font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif; color:#666; height: 100%; overflow-y:scroll}
+a:link {color: #666;}
+a:visited {color: #666;}
+a:hover { color: #666; text-decoration: none; font-weight: bold;}
+a:active { color: #666; }
+hr.hr3 {display:block;	height:2px;	width:100%;	border:0px;	background-color:#333;}
+hr.hrc {display:block;	height:2px;	width:100%;	border:0px;	background-color:#ccc;}
+
+.container {max-width: 768px;}
+.p_bottom {padding-bottom: 30px}
+.p_bottom2 {padding-bottom: 10px}
+.minw100 {min-width: 100px}
+.minw180 {min-width: 180px}
+.maxw640 {max-width: 640px}
+.list-inline-item {padding-bottom: 10px}
+.size_auto {width:auto;	height:1.5rem;}
+.topic {background-color: #DDD; font-weight: bold; font-size: 1.2rem;}
+.color_w {color: #fff;}
+.color_b {color: #000;}
+.color_6 {color: #666;}
+.bg_c {background-color: #ccc; min-height: 100%; height: auto;}
+.bg_c2 {background-color: #ccc; height: 100%;}
+.bg_b {background-color: #000;}
+.bg_w {background-color: #fff; min-height: 100%; height: auto;}
+.margin_auto {margin: 0 auto;}
+@media screen and (max-width: 560px) {.iframe-content {position: relative; width: 100%; padding: calc(315 / 560 * 100%) 0 0;}
+	.iframe-content iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}}

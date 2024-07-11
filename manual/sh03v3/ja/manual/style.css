@@ -1,0 +1,59 @@
+A:link   { color: #ccffdd; font-weight: bold; text-decoration: none; }
+A:visited{ color: #ccffdd; font-weight: bold; text-decoration: none; }
+A:active { color: #ccffdd; font-weight: bold; text-decoration: none; }
+a:hover  { color: #ffff88; font-weight: bold; text-decoration: none; }
+#Font    { font-size:18px; }
+body     { background: #000000 url(image/back.jpg) repeat fixed; color: #f7fff7; }
+
+hr { color: #aaaaaa; border: dotted; border-width: 1px; }
+
+h1 { font-size:20px; padding-top:2px; padding-bottom: 2px; border: ridge 1px; background: #222244; color: #ffffff; center; text-align: center; border-color: #777799; }
+h2 { font-size:18px; margin-top:40px; margin-left:20px; padding-left: 10px; border-left: solid 10px; color: #aaaaaa; }
+h3 { font-size:16px; margin-top:30px; margin-left:10px; padding-left: 10px; /*border-left: solid 3px;*/ color: #ffffaa; }
+
+pre { margin: 3px;  margin-left:80px; padding: 15px; background: #444444; width:600px; font-size:14px; }
+
+.title   { margin-top: 20px; }
+td.title { font-size: 20px; }
+
+
+.text { margin-left: 40px; }
+
+table.env {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left:90px;
+	padding: 10px;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #aaaaaa;
+}
+
+td {
+	margin:  10px;
+	padding: 10px;
+	border-color: #aaaaaa;
+}
+
+th {
+	margin:  10px;
+	padding: 10px;
+	border-color: #aaaaaa;
+	background: #333366;
+}
+
+th.device {
+	margin:  10px;
+	padding: 10px;
+	border-color: #aaaaaa;
+	background: #336666;
+}
+
+th.etc {
+	margin:  10px;
+	padding: 10px;
+	border-color: #999999;
+	background: #222255;
+	color: #ccccaa;
+}

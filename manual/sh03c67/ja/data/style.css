@@ -1,0 +1,18 @@
+A:link{
+	color:#ccddff;
+}
+A:visited{
+	color:#ccddff;
+}
+A:active{
+	color#ccddff;
+}
+a:hover{
+	color:#ffff88;
+}
+#Font{
+	font-size:15px;
+}
+body {
+	background: #000000 url(image/back.jpg) repeat fixed;
+}

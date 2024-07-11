@@ -1,0 +1,392 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta name="Copyright" content="AmusementMakers / 瞬殺サレ道？ / 西方Project 2007">
+<link rel="stylesheet" href="style.css" type="text/css">
+<script language="JavaScript" src="chgimg.js"></script>
+<title>幡紫竜　マニュアル</title>
+</head>
+
+<body>
+  <h1><a name="はじめに">はじめに</a></h1>
+  <div class='text'>
+このたびは 瞬殺サレ道？ のゲームを手にとっていただき、まことにありがとうございます。<br>
+このマニュアルには、西方Ｐｒｏｊｅｃｔ 第３弾「幡紫竜 〜ばんしりゅう〜」の操作方法や諸注意などの、ゲームに関する情報をまとめて記してありますので、プレイされる前に一度サクッと目を通して下さるようお願いします。<br><br>
+
+※マニュアル中のショートカットアイコンのショートカットアイコンが付いている部分はインターネット上のＨＰなどへのショートカットになっています。<br>
+  </div>
+  <br>
+  <h2><a name="">ストーリー</a></h2>
+
+<br>
+<div class="text">
+  パワープラント・ＲｅｄＳｔｏｒｍ<br><br>
+  火星探索において、局所的・短時間に発生する嵐の中心部で発見された<br>
+  鉱石を用いて行うエネルギー発生装置。<br><br>
+
+  鉱石自体を地球に持ち込もうとすると何故か制御が失敗するため<br>
+  火星にて応用しやすいエネルギーに変換、地表に転送している。現在はまだ試験段階。<br><br><br>
+
+  クリーンで効率的な新エネルギーの開発。<br>
+  技術が進めば、その技術を最高に活かすためにとより高いエネルギーを欲する。<br>
+  かつて、技術面において高い評価を得た発明家・エーリッヒの名は
+  ＲｅｄＳｔｏｒｍの発見によってさらに高みを見いだしたかのように…思えた。<br><br><br>
+
+  半年間、安定を見せていたＲｅｄＳｔｏｒｍ計画。<br>
+  しかしある日、なんの前触れもなくそれらは暴走をはじめる…ただ一つの例外を除いて。<br><br><br>
+
+  「ＶＩＶＩＴ−ｒ、待機状態を解除。システム、異常なし。<br>
+  …はい、ご主人様、私は問題無しですよ。今度はなんの御用ですか？<br>
+  …はい、了解しました。直ちに向かいます」<br><br>
+
+  そして、物語の始まりの地へ。<br>
+  <br>
+</div>
+<br>
+<br>
+<br>
+
+  <h2><a name="動作環境">動作環境</a></h2>
+  <br>
+  <div class="text">
+		以下は、 あくまでも目安です。<br>
+		動かない場合は、実行環境を報告していただけると対応できるかもしれません。
+	</div>
+  <table border="1px" class="env">
+	<tr><th>OS</th><td>Windows 2000/XP (Windows 95/98/Me で動作は保証できません)<br>Vista は一応動作するようです.</td></tr>
+	<tr><th>メモリ</th><td>512MB 以上</td></tr>
+	<tr><th>CPU</th><td>Pentium M  -  900 MHz 相当</td></tr>
+	<tr>
+	  <th>ビデオチップ</th>
+	  <td>動作確認済みのもの (○:問題なく動作, △:処理落ち少々)<br>
+			<hr>
+	  　○: ATI Radeon X1600<br>
+	  　○: NVIDIA Geforce 6600GT<br>
+	  　△: Intel GMA 950<br></td>
+	</tr>
+	<tr><th>DirextX</th><td>8以降(それ以前では動作しません)</td></tr>
+  </table>
+
+  <div class="text">
+		その他、あると幸せになれるかもしれないもの
+	</div>
+  <table border="1px" class="env">
+		<tr><th>サウンドカード</th><td>DirectSound に対応したもの<br>無くても動作します</td></tr>
+		<tr><th>パッド</th>        <td>DirectInput に対応したもの<br>ボタンが４つ以上付いているもの<br>振動に対応</td></tr>
+	</table>
+
+  <div class="text">
+	ドライバは、最新の安定版ドライバが当たっていること
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <h2><a name="インストール">インストール</a></h2>
+  <div class="text">
+	ファイル一式をハードディスクにコピー後、このマニュアルが読めていれば大丈夫です。<br><br>
+  </div>
+  <pre><image src="image/bsr_exe.gif" alt="コレ"/>　<b>幡紫竜.exe</b> をダブルクリックすれば起動します</pre>
+  <br>
+  <br>
+  <br>
+
+  <h2><a name="設定ダイアログ">設定ダイアログ</a></h2>
+  <div class="text">
+  初回起動時は設定ダイアログが開きますので, 必要に応じて変更を行ってください<br>
+  </div>
+  <br>
+  <br>
+  <div class="text">
+  <b><font color="#ffff80">処理が重たいな</font></b>、と感じる場合は<br>
+  設定ダイアログの以下の項目にチェックを入れることで改善できるかもしれません
+  <ul>
+	<li>テクスチャメモリをケチる</li>
+	<li>表示色が少なくても我慢する(フルスクリーン時有効)</li>
+	<li>フォグを無効化する</li>
+	<li>綺麗に拡大縮小しない</li>
+  </ul>
+  </div>
+  <br>
+  <br>
+  <div class="text">
+  フルスクリーン時、<b><font color="#ffff80">液晶の縦横比の都合でメイドさんがふとましい</font></b>、と感じる場合は<br>
+  以下の項目にチェックを入れることで対応できることもあります<br>
+  <br>
+  <ul>
+	<li>ウィンドウモードで起動する</li>
+	<li>仮想フルスクリーン(非推奨)</li>
+  </ul>
+  </div>
+  <div class="text">
+  (モニタを２つ以上使用している場合はうまくいかないかもしれません.おまけ程度の機能ということで)
+  </div>
+  <br>
+  <br>
+  <div class="text">
+  <b><font color="#ffff80">刺激が足りないな</font></b>、と感じる場合は<br>
+  難易度を Lunatic に変更する他、以下の項目にチェックを入れると良いでしょう
+  <ul>
+	<li>パッドを振動させる(やや過剰)</li>
+  </ul>
+  </div>
+
+  <h2><a name="アンインストール">アンインストール</a></h2>
+  <div class="text">
+	幡紫竜はレジストリ等を使用しませんので、ディレクトリごと削除してください<br>
+	<br>
+	ゲーム中に作成されるファイルは以下の通り
+	<ul>
+	  <li>設定ファイルは <b>bsr.cfg</b></li>
+	  <li>ステージクリア情報は <b>bsr.sco</b> (C73 以降)</li>
+	  <li>実行ログは<b>bsr.log</b></li>
+	  <li>リプレイデータは <b>replay</b> ディレクトリ内にあります</li>
+	  <li>画面のキャプチャは <b>capture</b> ディレクトリ内にあります</li>
+	</ul>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <h2><a name="操作説明">操作説明</a></h2>
+  <div class="text">
+	キーボードとパッドが (あれば) 使用できます
+  </div>
+  <br>
+  <table border="1px" class="env">
+	<tr><td></td><th class="device">キーボード</th><th class="device">パッド (*1)</th></tr>
+	<tr><th>自機の操作</th>                       <td>↑↓←→<br>テンキー８２４６、７９１３</td><td>パッドの上下左右</td></tr>
+	<tr><th>ショット<br>決定</th>                 <td>Ｚ</td>                                    <td>２</td></tr>
+	<tr><th>Ｓ.Ｅ(ボンバー)使用<br>キャンセル</th><td>Ｘ</td>                                    <td>０</td></tr>
+	<tr><th>低速移動・ウエポン切替</th>           <td>左・ＳＨＩＦＴ</td>                        <td>６</td></tr>
+	<tr><th>ポーズ/キャンセル</th>                <td>ＥＳＣ</td>                                <td>９</td></tr>
+
+	<tr><th class="etc">スクリーンキャプチャ (*2)</th>        <td>Ｆ１２</td>                                <td>-</td></tr>
+	<tr><th class="etc">終了</th>                             <td>Ａｌｔ＋Ｆ４</td>                          <td>-</td></tr>
+	<tr><th class="etc">フルスクリーン・ウィンドウ切替</th>   <td>Ａｌｔ＋Ｒｅｔｕｒｎ</td>                  <td>-</td></tr>
+  </table>
+
+  <pre><image src="image/bsrcfg_exe.gif" alt="コレ" align="left"/>
+　(*1) 表内の数字は初期設定値
+
+　パッドを使用される場合は、初回起動時に表示されるダイアログ、
+　もしくは <b>bsrcfg.exe</b> をダブルクリックして起動してください
+  </pre>
+  <br>
+  <pre>
+　(*2) capture ディレクトリが作成され、その中に日付付き連番ファイルが作成されます</pre>
+  <br>
+  <br>
+  <br>
+  <h1><a name="システム">システム</a></h1>
+  <h2><a name="モード切替">モード切替</a></h2>
+  <div class="text">各機体には２種類のショットが装備されており、一部の例外を除き<br>
+  <table style="margin-left:100px; padding: 8px;">
+	<tr>
+	  <td><font color="#ffaaaa"><b>テクニカルモード</b></font><br>(SHIFT解放中)</td>
+	  <td>前方に高威力のショットが放たれる.<br>
+		<b><font color="#ffff80">ショットを放たなければ、移動速度が上昇します.</font></b>
+	  </td>
+	</tr>
+	<tr>
+	  <td><font color="#aaaaff"><b>オートモード</b></font><br>(SHIFT 押下中)</td>
+	  <td>移動速度が低下する.<br>
+		敵を自動追従するショットが放たれる.<br>
+		時々、あんまり賢くない動きをするので過剰な期待は禁物<td>
+	</tr>
+  </table>
+  といった特徴があります<br>
+  <br>
+  <br>
+  テクニカルモード中は、自機周囲に黒いフィールドが展開され、カスり判定が大幅に拡大します<br>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <h2><a name="Ｓ.Ｅ">Ｓ.Ｅ</a></h2>
+  <img style="margin-left: 80px;" src="image/se_icon.gif"/>
+  <div class="text">
+  <br>
+	画面左下に表示される弾アイコンの数だけ強力な攻撃 ( Ｓ．Ｅ - Special Equipment) を放つことができます.<br>
+	ボタンを押下し続けることで、連続使用が可能です.<br>
+	<br>
+	ボスにも容赦なく有効で、Ｓ．Ｅ に接触した敵弾は、<font size="-1">一部の例外を除き</font> 消滅してしまいます.<br>
+	<br>
+	いわゆる「ボンバー (ボム)」ですが、全弾消し・無敵等の要素は無いので、緊急回避にはあまり使えません<br>
+	決めうちして、苦手な箇所を力押しで乗り切りましょう<br>
+	<br>
+	得点アイテムを大量に集めるか、ボムアイテムを拾うことで使用回数が回復します
+	<br>
+	<br>
+	<br>
+	<font size="-1">・Ｓ．Ｅを発射するとごくわずかに敵がビビっておとなしくなります</font>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+  <h2><a name="ガードブレイク">ガードブレイク</a></h2>
+  <img style="margin-left: 80px;" src="image/g-break.gif"/>
+  <div class="text">
+  <br>
+	敵に接触すると、ガードブレイクとなり残機が減ることはありませんが、<br>
+	一時的にＳ．Ｅが発射できなくなってしまいます<br>
+	<br>
+	自機周囲に赤い円が表示されている間だけＳ．Ｅが無効となります.
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+  <h2><a name="アイテム">アイテム</a></h2>
+  <div class="text">
+	アイテムは以下の３種類があります.<br>
+	取ることでプレイに悪影響の出るアイテムはありません. きっと.<br>
+	<br>
+  </div>
+  <table style="margin-left:100px; padding: 8px;">
+	<tr>
+	  <td>得点アイテム</td><td align="center"><img src="image/item_score.gif"/></td>
+	  <td>
+		アイテム発生時の「基本点 <b>(*1)</b>」がアイテムの得点になります<br>
+		大量に取得すると、Ｓ．Ｅの使用回数が増えます<br>
+		(左上に表示される個数分).</td>
+	</tr>
+	<tr>
+	  <td>ボンバー</td><td align="center"><img src="image/item_bomber.gif"/></td>
+	  <td>Ｓ．Ｅの使用回数が１回増えます</td>
+	</tr>
+	<tr>
+	  <td>１ＵＰ</td><td align="center"><img src="image/item_extend.gif"/></td>
+	  <td>残機が１つ増えます(右上ハート)</td>
+	</tr>
+  </table>
+
+  <div class="text">
+	<br>
+	<br>
+	得点アイテムは以下の条件で自動回収されます
+	<ul>
+	  <li>敵に十分接近して破壊</li>
+	  <li>アイテムが画面内に表示されている間に敵弾にオートモードでカスる</li>
+	  <li>ガードブレイクする</li>
+	</ul>
+  </div>
+
+  <div class="text">
+	<br>
+	<br>
+	(*1) 基本点とは
+	<ul>
+	  <li><b><font color="#ffff80">アイテムが自動回収できるぐらいに敵に接近して、倒すことで上昇します</font></b></li>
+	  <li>右上に出ている＋１００とかいう数字がソレです</li>
+	  <li>最後にアイテム回収してから時間が経過すると、急激に減少します</li>
+	  <li>たくましい敵を倒すと、大幅に上昇することが多いです</li>
+	  <li>基本点は１００００まで上昇します</li>
+	</ul>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  <h2><a name="機体性能">機体性能</a></h2>
+  <div class="text">色気のない自機紹介.</div>
+  <table border="1px" class="env">
+	<tr>
+	  <th><font color="#ffaaaa">Vivit-r</font><br><br>ワイドメイド</th>
+	  <td>
+		・広範囲をサポートするワイドショットが使いやすい.<br>
+		・Ｓ．Ｅ は左右キーで進行方向制御が可能.<br></td></tr>
+
+	<tr>
+	  <th><font color="#ffaaaa">Vivit-r</font><br><br>レーザーメイド</th>
+	  <td>
+		・レーザーは敵によっては貫通可能. 大きな敵、堅そうな敵は貫通不可.<br>
+		・Ｓ．Ｅ 中は移動速度が大幅に低下.<br></td></tr>
+
+	<tr>
+	  <th><font color="#aaaaff">桜崎 比良野</font><br><br>弓巫女</th>
+	  <td>
+		・中央集中の矢は攻撃力が高めだが、小型敵へのダメージ効率が少々悪い.<br>
+		・Ｓ．Ｅ の乱射札は、威力はきわめて低いが画面上ほぼ全ての敵弾を消滅させられる.<br></td></tr>
+
+	<tr>
+	  <th><font color="#aaaaff">桜崎 比良野</font><br><br>炎巫女</th>
+	  <td>
+		・近接特化型の機体. 少々扱いが難しい.<br>
+		・ＳＨＩＦＴキーで高速移動になる<br>
+		・オートモードは円内の的をロック. １体のみロックしたときは強力な攻撃となる<br>
+		・Ｓ．Ｅ は敵弾消しの範囲が広く、緊急回避に使える.<br></tr>
+  </table>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</body>
+</html>

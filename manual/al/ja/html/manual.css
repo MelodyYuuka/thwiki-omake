@@ -1,0 +1,94 @@
+a:link {
+	text-decoration: none ;
+	color:#908FFF ;
+}
+a:visited {
+	text-decoration: none ;
+	color:#908FFF ;
+}
+a:hover {
+	text-decoration: underline ;
+	color:#908FFF ;
+}
+a:active { 
+	text-decoration: underline ;
+	color:#908FFF ;
+}
+
+body{
+	background-color:#202020;
+	font-size:small;
+	color:#000000;
+}
+div.Topic{
+	background-color:#969696;
+	color:#323232;
+	font-size:small;
+	font-weight:bold;
+	text-align:left;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.Topic2{
+	background-color:#C8C8C8;
+	color:#323232;
+	font-size:small;
+	font-weight:bold;
+	text-align:left;
+	width: 630px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.Topic3{
+	background-color:#E6E3E3;
+	color:#2E2E34;
+	font-size:small;
+	text-align:left;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.Topic4{
+	background-color:#D7D7D7;
+	color:#2E2E34;
+	font-size:small;
+	font-weight:bold;
+	text-align:center;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.Text{
+	color:#B3B3B3;
+	font-size:small;
+	text-align:center;
+}
+div.Text2{
+	color:#B3B3B3;
+	font-size:small;
+	text-align:left;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.Title{
+	color:#B3B3B3;
+	font-size:large;
+	font-weight:bold;
+	text-align:center;
+}
+div.story{
+	color:#2E2E34;
+	font-size:small;
+	text-align:center;
+	background-color:#C9C9C9;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.Copy{
+	color:#BCBCBC;
+	font-size:small;
+	text-align:center;
+}
